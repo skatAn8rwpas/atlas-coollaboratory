@@ -29,9 +29,9 @@ exports = function(authEvent) {
 
     Learn more about http client here: https://docs.mongodb.com/stitch/functions/context/#context-http
   */
-  
+
     const user = authEvent.user;
-    
+
     // Access a mongodb service:
     const accountsCollection = context.services.get('').db("dev").collection("accounts");
     const authService = context.services.get('AuthService')

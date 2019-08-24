@@ -1,4 +1,14 @@
 {
+    "app_id": "coollaboratory-owfwi",
     "config_version": 20180301,
-    "security": {}
+    "name": "coolLaboratory",
+    "location": "IE",
+    "deployment_model": "GLOBAL",
+    "security": {},
+    "hosting": {
+        "enabled": true,
+        "app_default_domain": "coollaboratory-owfwi.mongodbstitch.com",
+        "default_error_path": "/index.html",
+        "default_error_code": "200"
+    }
 }

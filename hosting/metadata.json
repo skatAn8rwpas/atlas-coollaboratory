@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/index.html",
+    "attrs": [
+      { "name": "content-type>", "value": "application/html" }
+    ]
+  },
+  {
+    "path": "/scripts/**/*.js",
+    "attrs": [
+      { "name": "content-type>", "value": "application/x-javascript" }
+    ]
+  }
+]
