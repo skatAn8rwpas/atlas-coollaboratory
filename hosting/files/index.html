@@ -5,8 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+
+  <style>
+    :root {
+      --surface-bg-color: #fefefe;
+      --text-on-surface: rgba(0, 0, 0, .7);
+      --strong-text-color: rgba(0, 0, 0, .8);
+
+    }
+
+    [theme="dark"] {
+      --surface-bg-color: #201e29;
+      --text-on-surface: rgba(254, 254, 254, .7);
+      --strong-text-on-surface: rgba(129, 136, 180, 0.9);
+    }
+
+    body {
+      background-color: var(--surface-bg-color);
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+      color: var(--text-on-surface)
+    }
+    strong {
+      color: var(--strong-text-on-surface)
+    }
+    strong::before, strong::after {
+      content: "\`"
+    }
+  </style>
 </head>
-<body>
+<body theme="dark">
   <div id="app"></div>
 
   <script src="/scripts/main.js" type="module"></script>
