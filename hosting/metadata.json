@@ -2,13 +2,19 @@
   {
     "path": "/index.html",
     "attrs": [
-      { "name": "content-type>", "value": "application/html" }
+      { "name": "Content-Type", "value": "application/html" }
     ]
   },
   {
-    "path": "/scripts/**/*.js",
+    "path": "/scripts/main.js",
     "attrs": [
-      { "name": "content-type>", "value": "application/x-javascript" }
+      { "name": "Content-Type", "value": "application/x-javascript" }
+    ]
+  },
+  {
+    "path": "/scripts/App.js",
+    "attrs": [
+      { "name": "Content-Type", "value": "application/x-javascript" }
     ]
   }
 ]
