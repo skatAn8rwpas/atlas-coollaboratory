@@ -1,0 +1,11 @@
+{
+    "name": "local-userpass",
+    "type": "local-userpass",
+    "config": {
+        "confirmEmailSubject": "",
+        "emailConfirmationUrl": "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/coollaboratory-owfwi/service/AuthService/incoming_webhook/confirmEmail",
+        "resetPasswordSubject": "",
+        "resetPasswordUrl": "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/coollaboratory-owfwi/service/AuthService/incoming_webhook/resetPassword"
+    },
+    "disabled": false
+}

@@ -1,0 +1,6 @@
+{
+    "name": "AuthService",
+    "type": "http",
+    "config": {},
+    "version": 1
+}
